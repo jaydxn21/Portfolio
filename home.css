@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar{
+	float: right;
+	overflow: hidden;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color: white;
+	font-size: 40px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+.navbar a{
+	 float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	padding-right: 5px;
+}
+a:link{
+	color: whitesmoke;
+	text-decoration: none;
+}
+a:visited{
+	color: whitesmoke;
+	text-decoration: none;
+}
+a:hover {
+	color:aqua;
+	text-decoration: none;
+}
+a:active{
+	color: blue;
+	text-decoration: none;
+}
+body{
+	background-color: black;
+	padding: 16px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center
+}
+
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column1 {
+  float: left;
+  width: 30%;
+  padding: 5px;
+
+}
+@media screen and (max-width: 500px) {
+  .column1 {
+    width: 100%;
+  }
+}
+
+/* Clear floats after image containers */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+.column2 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+@media screen and (max-width: 500px) {
+  .column2 {
+    width: 100%;
+  }
+}
+
+/* Clear floats after image containers */
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+.column3 {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+@media screen and (max-width: 500px) {
+  .column3 {
+    width: 100%;
+  }
+}
+
+/* Clear floats after image containers */
+.row3::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+#content{
+	font-family:"aguafina-script";
+	color: whitesmoke;
+	font-size: 50%;
+}
+.black:hover{
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	box-shadow: 0px 0px 20px #ff1493;
+}
+.black{
+	background-color: azure;
+	background-position: 90% 50%;
+}
+.star{
+	background-color: azure;
+}
+.star:hover{
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	box-shadow: 0px 0px 25px #1e90ff;
+} 
+.bailey:hover{
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	box-shadow: 0px 0px 22px #fff;
+}
+.rashford:hover{
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	box-shadow: 0px 0px 20px #ff0000;
+}
+.monique:hover{
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	box-shadow: 0px 0px 21px #00ff00;
+}
+.paris:hover{
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	box-shadow: 0px 0px 21px #ffff00;
+}
+.shock:hover{
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	box-shadow: 0px 0px 21px #00ffff;
+}
+.sponge:hover{
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	box-shadow: 0px 0px 21px #ff00ff;
+}
+.nike:hover{
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	box-shadow: 0px 0px 21px #ffd700;
+}
+	
+	
+	
+
+
+
+
+
